@@ -1,0 +1,25 @@
+#jumbo{
+  /* The image used */
+  background-image: url("jumbo_photo.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info {
+	text-align: right;
+}
+
+.restinfo{
+	padding-top: 10%;
+}
+
+/* hide photos links on mobile */
+@media only screen and (max-width: 767px) {
+  	#headchef{
+    	display: none;
+	}
+}

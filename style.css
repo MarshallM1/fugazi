@@ -1,6 +1,9 @@
 #jumbo{
   /* The image used */
-  background-image: url("jumbo_photo.jpg");
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("jumbo_photo.jpg");
 
   min-height: 380px;
 
@@ -15,6 +18,10 @@
 
 .restinfo{
 	padding-top: 10%;
+}
+
+#title{
+	color: white;
 }
 
 /* hide photos links on mobile */
